@@ -54,7 +54,6 @@ public class Solution {
                 rightMarker--;
             }
         } while (leftMarker <= rightMarker);
-
         if (leftMarker < rightBorder) quickSort(myAr, leftMarker, rightBorder);
         if (leftBorder < rightMarker) quickSort(myAr, leftBorder, rightMarker);
     }
